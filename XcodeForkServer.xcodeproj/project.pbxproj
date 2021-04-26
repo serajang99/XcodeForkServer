@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		EB7F25DF2636C84A00105A8B /* XcodeForkServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeForkServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F25E22636C84A00105A8B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EB7F25EA2636C8FD00105A8B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EB7F25EB2636CA2500105A8B /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitattributes; path = XcodeForkServer/.gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		EB7F25D62636C84A00105A8B = {
 			isa = PBXGroup;
 			children = (
+				EB7F25EB2636CA2500105A8B /* .gitattributes */,
+				EB7F25EA2636C8FD00105A8B /* .gitignore */,
 				EB7F25E12636C84A00105A8B /* XcodeForkServer */,
 				EB7F25E02636C84A00105A8B /* Products */,
 			);
@@ -97,7 +101,7 @@
 				};
 			};
 			buildConfigurationList = EB7F25DA2636C84A00105A8B /* Build configuration list for PBXProject "XcodeForkServer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
